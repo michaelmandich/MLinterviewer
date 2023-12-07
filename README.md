@@ -1,5 +1,5 @@
 # MLinterviewer
-a project using a multitude of libraries and APIs in order to (mostly) locally generate a realistic interview on the topic of your choosing
+A solo project using a multitude of libraries and APIs in order to (mostly) locally generate a realistic interview on the topic of your choosing
 Follow the on-screen instructions to record and transcribe interviews.
 
 # Project Overview
@@ -10,7 +10,7 @@ Audio Recording: Leveraging PyAudio, the application can record interviews in hi
 
 Transcription: Utilizes advanced natural language processing (NLP) techniques to transcribe the recorded interviews accurately. (openai whisper v3)
 
-Speech Synthesis: Converts text to speech for various purposes using state-of-the-art models. So far OpenAI's echo and Microsofts's latest local tts are available for selection at the start of the interview. note that with longer responses from the interviewer, Microsoft's tts starts to fail catastrophically.
+Speech Synthesis: Converts text to speech for various purposes using state-of-the-art models. So far OpenAI's echo and Microsofts's latest local tts are available for selection at the start of the interview. Note that with longer responses from the interviewer, Microsoft's tts starts to fail catastrophically.
 
 
 # Installation
