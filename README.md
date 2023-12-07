@@ -7,7 +7,9 @@ This project is designed to conduct interviews, record them, and generate transc
 
 # Features
 Audio Recording: Leveraging PyAudio, the application can record interviews in high-quality audio.
+
 Transcription: Utilizes advanced natural language processing (NLP) techniques to transcribe the recorded interviews accurately. (openai whisper v3)
+
 Speech Synthesis: Converts text to speech for various purposes using state-of-the-art models. So far OpenAI's echo and Microsofts's latest local tts are available for selection at the start of the interview. note that with longer responses from the interviewer, Microsoft's tts starts to fail catastrophically.
 
 
@@ -34,9 +36,13 @@ From here, the program will prompt you what to do in the UI, note that it must b
 
 # Dependencies
 PyAudio: For audio recording and processing.
+
 PyDub: For handling audio files.
+
 Transformers & Torch: For NLP tasks and speech synthesis.
+
 OpenAI: For utilizing OpenAI's APIs (if used in the project).
+
 Additional dependencies may be listed in requirements.txt.
 # Configuration
 Set the OPENAI_API_KEY in your environment variables for OpenAI functionalities.
