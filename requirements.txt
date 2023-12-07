@@ -1,0 +1,9 @@
+numpy
+pyaudio
+torch
+transformers
+pydub
+playsound
+soundfile
+datasets
+openai
