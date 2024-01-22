@@ -1,9 +1,12 @@
 numpy
+openai
+soundfile
 pyaudio
 torch
-transformers
-pydub
-playsound
-soundfile
 datasets
-openai
+tkinter  
+wave     
+playsound
+pydub
+transformers
+Pillow  # This is the package name for PIL
