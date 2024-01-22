@@ -12,6 +12,8 @@ Transcription: Utilizes advanced natural language processing (NLP) techniques to
 
 Speech Synthesis: Converts text to speech for various purposes using state-of-the-art models. So far OpenAI's echo and Microsofts's latest local tts are available for selection at the start of the interview. Note that with longer responses from the interviewer, Microsoft's tts starts to fail catastrophically.
 
+Avatar: the interviewer uses a set of still images to mimic what a normal interviewer might look like, to increase the realism of the ai intervier.
+
 
 # Installation
 Clone the repository:
